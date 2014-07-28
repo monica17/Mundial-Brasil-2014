@@ -1,0 +1,108 @@
+body{
+	background: url("fondoWeb.jpg");
+    background-attachment: fixed;
+}
+
+
+#todo{
+	border: solid 0.1em brown; 
+	width: 80%;
+	/*height: 1320px;*/
+	margin: 0 auto;
+    box-shadow: 0 0 2em rgba(0,0,0,0.5);
+    padding: 2em;
+    border-radius: 1em;
+    background: #FFF;
+    overflow: hidden;
+    /*background: url("fondoWeb.jpg");
+    background-attachment: fixed;*/
+}
+
+#todo p{
+	text-align: justify;
+	padding: 3em;
+}
+
+#todo #datos_curiosos{
+	margin-top: -6em;
+	padding: 3em;
+	text-align: justify;
+}
+
+#todo #datos_curiosos li{
+	list-style: square;
+}
+
+header{
+	height: 300px;
+}
+
+header img{
+	text-align: center;
+}
+
+.jumbotron{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#myCarousel.carousel.slide h1{
+	margin-top: -9em;
+}
+
+#myCarousel.carousel.slide{
+	margin: 0 auto;
+	width: 97%;
+}
+
+.carousel-inner{
+	/*width: 80%;*/
+}
+
+.carousel-inner.item.active{
+	/*width: 80%;*/
+}
+
+#contenido .page-header p{
+	margin-top: -2em;
+}
+
+.row{
+	margin-top: -2em;
+}
+
+.row article{
+	text-align: justify;
+	margin: 0 1em;
+}
+
+.table .table-hover .table-striped .table-bordered{
+	float: left;
+}
+
+.caption{
+	height: 470px}
+
+#todo #contenido_cal{
+	margin-left: 6em;
+	margin-top: 3em;
+}
+
+#contenido_cal #grupoA, #grupoB, #grupoC, #grupoD, #grupoE, #grupoF, #grupoG, #grupoH{
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 2em;
+	text-align: center;
+	width: 20%;
+}
+
+#contenido_cal  img{
+	margin: 0 2em;
+}
+
+#contenido_cal .col-xs-6.col-sm-6.col-md-12{
+	font-weight: bolder;
+	font-size: 12pt;
+	background: #339933;
+	color: #FFF;
+}
